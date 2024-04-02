@@ -1,3 +1,9 @@
+fun main() {
+    val input = "Good Job!"
+    val reversedString = reverseString(input)
+    println("Original String: $input")
+    println("Reversed String: $reversedString")
+}
 fun reverseString(input: String): String {
     val charArray = input.toCharArray()
     var left = 0
@@ -14,9 +20,3 @@ fun reverseString(input: String): String {
     return String(charArray)
 }
 
-fun main() {
-    val input = "Good Job!"
-    val reversedString = reverseString(input)
-    println("Original String: $input")
-    println("Reversed String: $reversedString")
-}
